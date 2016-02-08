@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+@font-face{
+	font-family: "HelveticaNeueCyr-Light";
+	src: url("../font/HelveticaNeueCyr-Light.ttf");
+}
+p{
+	font-family: "HelveticaNeueCyr-Light";
+	color:#0f2e43;
+}
+.bg {
+	width: 100%;
+    background: #dce6ec;
+}
+
+#baner{
+	width:1000px;
+	margin: auto;
+	position: relative;
+    height: 180px;
+    overflow: hidden;
+}
+#close {position: absolute;top:4px;right:4px;}
+
+
+#slide1 p span{ 
+	font-size: 45.5px;
+
+}
+#slide1 p{ 
+	position: absolute;
+	top:40px;
+	left: 197px;
+	font-size: 36px;
+}
+#slide1{
+	width: 590px;
+	height: 180px;
+
+}
+#slide2{
+    position: absolute;
+    right: 3px;
+    top: -82px;
+    width: 400px;
+    height: 90px;
+    /*border:solid 1px red;*/
+}
+
+ #slide2 img[name="logo"]{
+ 	width: 378px;
+	display: block;
+ 	height:auto;
+ 	margin: 28px auto 12px;
+
+ }
+ #slide3 p{
+ 	position: absolute;
+ 	bottom:3px;
+ 	left:70px;
+ 	font-size: 34px;
+ 	width: 280px;
+ 	margin:8px auto;
+ 	display: block;
+ }
+ #slide3{
+ 	position: absolute;
+ 	bottom: -95px;
+ 	right: 3px;
+ 	width: 400px;
+ 	/*border:solid 1px red;*/
+
+ }
+#button-to-cf{
+	width: 210px;
+	display: block;
+	margin: 0 auto 50px;
+}
+	<script type="text/javascript" data-r="admixer" data-main="https://cdn.admixer.net/scripts3/r/require-html5" src="https://cdn.admixer.net/scripts3/require.js"></script>
+	
+	<script src="js/CSSPlugin.min.js"></script>
+	<script src="js/EasePack.min.js"></script>
+	<script src="js/TweenLite.min.js"></script>
+	<script src="js/TimelineLite.min.js"></script>
+	<script type="text/javascript" src=js/body.js></script>
+
